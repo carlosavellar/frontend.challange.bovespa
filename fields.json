@@ -1,0 +1,57 @@
+{
+  "user_fields": [
+    {
+      "name": "name",
+      "label": "Nome",
+      "type": "small_text",
+      "placeholder": "",
+      "required": true
+    },
+    {
+      "name": "email",
+      "label": "Email",
+      "type": "email",
+      "placeholder": "Ex: nome@email.com",
+      "required": true
+    },
+    {
+      "name": "provider",
+      "label": "Provedor",
+      "type": "text",
+      "placeholder": "",
+      "required": false
+    }
+  ],
+  "home_fields": [
+    {
+      "name": "tribes",
+      "label": "Tribos",
+      "type": "list",
+      "placeholder": "",
+      "required": false
+    }
+  ],
+  "tribe_fields": [
+    {
+      "name": "tribe_id",
+      "label": "Id",
+      "type": "text",
+      "placeholder": "",
+      "required": false
+    },
+    {
+      "name": "name",
+      "label": "Nome",
+      "type": "enumerable",
+      "placeholder": "",
+      "required": true
+    },
+    {
+      "name": "icon",
+      "label": "Icone",
+      "type": "text",
+      "placeholder": "",
+      "required": false
+    }
+  ]
+}
